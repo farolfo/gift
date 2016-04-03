@@ -1,0 +1,16 @@
+<div id="results-header">
+    <span class="brand">gift</span>
+    <span class="search-container">
+        <i class="fa fa-search"></i>
+        <input type="text" value="Capital Federal, Buenos Aires"/>
+    </span>
+</div>
+<div class="results-section">
+    <div class="suggestions-container">
+        <div class="results-amount">Hay {{stages.length}} resultados</div>
+        <suggestion stage="stage" ng-repeat="stage in stages"></suggestion>
+    </div>
+    <span id="map-container">
+        <div id="map"></div>
+    </span>
+</div>

@@ -1,0 +1,147 @@
+@header-height: 545px;
+@footer-height: 200px;
+
+.suggestions-section {
+
+  position: absolute;
+  top: @header-height;
+  left: 0px;
+  right: 0px;
+
+  padding-bottom: @footer-height + 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+
+  margin: 0;
+  list-style: none;
+
+  text-align: center;
+  display: inline-block;
+  min-height: 550px;
+
+  background-color: #fafafa;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.suggestion {
+
+  @suggestion-width: 220px;
+
+  display: inline-block;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 310px;;
+  box-shadow: 2px 0px 3px #888888;
+
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  position: relative;
+
+  .image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 200px;
+    margin-top: 3px;
+  }
+
+  .info {
+    position: absolute;
+    top: 215px;
+    width: inherit;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .name {
+      display: block;
+      margin-top: 0px;
+      text-rendering: optimizeLegibility;
+      text-shadow: rgb(51, 51, 51) 0px 1px 3px;
+    }
+
+    .location {
+      display: block;
+      font-weight: 200;
+      font-size: medium;
+      text-rendering: optimizeLegibility;
+      text-shadow: rgb(51, 51, 51) 0px 1px 3px;
+    }
+
+    .raised {
+      display: block;
+      font-weight: 200;
+      font-size: medium;
+      text-rendering: optimizeLegibility;
+      text-shadow: rgb(51, 51, 51) 0px 1px 3px;
+    }
+  }
+
+  &.unicef {
+    background-color: #00ADEF;
+  }
+
+  &.cruz-roja {
+    background-color: #D42C2A;
+    .image {
+      background-position: 50% 10% !important;
+    }
+  }
+
+  &.water-for-africa {
+    background-color: #356279;
+  }
+
+  &.greenpeace {
+    background-color: hsl(88, 73%, 43%);
+  }
+
+
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: @footer-height;
+  background-color: #2B2D2E;
+  color: white;
+  padding-top: 17px;
+  text-align: center;
+
+  .icons-container {
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+    .fa-stack {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .fa-inverse {
+    color: #2B2D2E;
+  }
+
+  h5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+}
+
+video {
+  width: inherit;
+  height: 562px;
+  transform: scale(1.8) translate(69px, 125px);
+}

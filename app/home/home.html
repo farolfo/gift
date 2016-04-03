@@ -1,0 +1,42 @@
+<video autoplay loop muted poster="none.jpg" id="bgvid">
+    <source src="../assets/videos/two-kids-run-through-cornfield-at-sunset-in-africa_zkpuql_gb__WL.mp4" type="video/mp4">
+</video>
+<span id="header">
+    <span class="brand">gift</span>
+
+    <span class="slogan top">
+        Donate bitcoin <strong>today</strong>
+    </span>
+    <!--<span class="slogan bottom"><typer values="['UNICEF', 'GREENPEACE', 'WATER 4 AFRICA', 'TECHO PARA MI PAIS', 'CRUZ ROJA']"></typer></span>
+-->
+    <span class="menu">
+        <span class="item">How it works?</span>
+        <span class="item">Register an NGO</span>
+        <span class="item">About us</span>
+    </span>
+
+    <span class="search-container">
+          <div class="input-group input-group-lg">
+              <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span ng-if="searchBy == 'location'">find NGOs by location</span>
+                      <span ng-if="searchBy == 'name'">find NGOs by name</span>
+                      <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                      <li><a ng-click="searchBy = 'location'">find NGOs by location</a></li>
+                      <li><a ng-click="searchBy = 'name'">find NGOs by name</a></li>
+                  </ul>
+              </div>
+              <input type="text" class="form-control" placeholder="San Francisco, CA">
+              <span class="input-group-btn">
+                  <button class="btn btn-default search" type="button">Search</button>
+              </span>
+            </div>
+          </div>
+    </span>
+</span>
+
+<span class="suggestions-section">
+    <suggestion ngo="ngo" ng-repeat="ngo in ngos"></suggestion>
+    <span class="footer"></span>
+</span>

@@ -1,0 +1,289 @@
+.suggestions-section {
+  position: absolute;
+  top: 545px;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 250px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  min-height: 550px;
+  background-color: #fafafa;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.suggestion {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 310px;
+  box-shadow: 2px 0px 3px #888888;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+.suggestion .image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 200px;
+  margin-top: 3px;
+}
+.suggestion .info {
+  position: absolute;
+  top: 215px;
+  width: inherit;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.suggestion .info .name {
+  display: block;
+  margin-top: 0px;
+  text-rendering: optimizeLegibility;
+  text-shadow: #333333 0px 1px 3px;
+}
+.suggestion .info .location {
+  display: block;
+  font-weight: 200;
+  font-size: medium;
+  text-rendering: optimizeLegibility;
+  text-shadow: #333333 0px 1px 3px;
+}
+.suggestion .info .raised {
+  display: block;
+  font-weight: 200;
+  font-size: medium;
+  text-rendering: optimizeLegibility;
+  text-shadow: #333333 0px 1px 3px;
+}
+.suggestion.unicef {
+  background-color: #00ADEF;
+}
+.suggestion.cruz-roja {
+  background-color: #D42C2A;
+}
+.suggestion.cruz-roja .image {
+  background-position: 50% 10% !important;
+}
+.suggestion.water-for-africa {
+  background-color: #356279;
+}
+.suggestion.greenpeace {
+  background-color: #73be1e;
+}
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 200px;
+  background-color: #2B2D2E;
+  color: white;
+  padding-top: 17px;
+  text-align: center;
+}
+.footer .icons-container {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.footer .icons-container .fa-stack {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer .fa-inverse {
+  color: #2B2D2E;
+}
+.footer h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+video {
+  width: inherit;
+  height: 562px;
+  transform: scale(1.8) translate(69px, 125px);
+}
+#results-header {
+  height: 61px;
+  background-color: #2B2D2E;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+}
+#results-header button.add {
+  top: 15px;
+}
+#results-header .brand {
+  font-size: 26px;
+  margin-left: 30px;
+}
+#results-header .search-container {
+  color: white;
+  margin-left: 35px;
+}
+#results-header .search-container i {
+  font-size: 35px;
+}
+#results-header .search-container input {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 100;
+  width: 400px;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+.results-section {
+  position: absolute;
+  top: 61px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  bottom: 0px;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  background-color: #fafafa;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.results-section #map-container {
+  background-color: red;
+  width: 40%;
+  position: fixed;
+  right: 0;
+  top: 61px;
+  bottom: 0px;
+}
+.results-section #map-container #map {
+  height: 100%;
+  width: 100%;
+}
+.results-section .suggestions-container {
+  display: inline-block;
+  width: 58%;
+  padding-top: 10px;
+}
+.results-section .suggestions-container .results-amount {
+  margin-top: 20px;
+  padding-left: 33px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 545px;
+}
+#header .brand {
+  font-size: 40px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+#header .slogan {
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  text-rendering: optimizeLegibility;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: #333333 0px 1px 3px;
+}
+#header .slogan.top {
+  top: 210px;
+}
+#header .slogan.bottom {
+  top: 300px;
+}
+#header .search-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#header .search-container .input-group {
+  width: 760px;
+  margin: auto;
+  margin-top: 30px;
+}
+#header .search-container .input-group button.search {
+  background-color: #0ad18c;
+  border-color: #0ad18c;
+  color: white;
+}
+#header .search-container .input-group .caret {
+  color: #555;
+}
+#header .search-container .input-group button.menu {
+  background-color: white;
+  border: #cccccc;
+  color: #555;
+}
+#header .search-container .input-group li {
+  cursor: pointer;
+}
+#header .menu {
+  position: absolute;
+  top: 36px;
+  right: 40px;
+}
+#header .menu .item {
+  margin-right: 30px;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: initial;
+  text-shadow: #333333 1px 1px 3px;
+}
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block;
+  min-width: 1000px;
+  background-color: #fafafa !important;
+  outline: none;
+}
+.main-view {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.brand {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  text-shadow: #333333 0px 1px 3px;
+}
+.light-text {
+  font-weight: 100;
+}
+/*
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Lato', sans-serif;
+*/
