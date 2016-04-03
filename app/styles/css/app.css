@@ -153,9 +153,10 @@
   top: 51px;
   left: 120px;
   text-align: left;
+  font-size: 17px;
 }
 .features .pair .item .text.three-lines {
-  top: 24px;
+  top: 30px;
 }
 .features .pair .item .text.two-lines {
   top: 39px;
