@@ -1,5 +1,5 @@
 @header-height: 545px;
-@footer-height: 200px;
+@footer-height: 250px;
 
 .suggestions-section {
 
@@ -104,8 +104,105 @@
   &.greenpeace {
     background-color: hsl(88, 73%, 43%);
   }
+}
 
+.how-it-works {
+  display: block;
+  background-color: #3C763D;
+  padding: 5px;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: 50px;
+  width: inherit;
+  height: 380px;
+  box-shadow: 2px 0px 3px #888888;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
 
+  font-family: 'Karla', sans-serif;
+
+  h3 {
+    font-family: 'Karla', sans-serif;
+    margin-top: 50px;
+  }
+
+  .step {
+    width: 212px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+    i {
+      display: block;
+      font-size: 100px;
+      margin-top: 20px;
+      margin-bottom: 17px;
+    }
+  }
+
+  .divider {
+    width: 40px;
+    display: inline-block;
+  }
+}
+
+.features {
+  display: block;
+  background-color: #fafafa;
+  padding: 5px;
+  margin-left: -40px;
+  margin-right: -40px;
+  width: inherit;
+  height: 550px;
+  box-shadow: 2px 0px 3px #888888;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+  color: #3C763D;
+
+  h3 {
+    margin-top: 33px;
+  }
+
+  .pair {
+    display: block;
+    margin-top: 15px;
+
+    .item {
+      width: 390px;
+      display: inline-block;
+      height: 130px;
+      position: relative;
+
+      .text {
+        position: absolute;
+        top: 51px;
+        left: 120px;
+        text-align: left;
+
+        &.three-lines {
+          top: 24px;
+        }
+
+        &.two-lines{
+          top: 39px;
+        }
+      }
+
+      i {
+        font-size: 60px;
+        position: absolute;
+        top: 36px;
+        left: 40px;
+      }
+    }
+
+  }
 }
 
 .footer {

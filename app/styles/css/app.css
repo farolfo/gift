@@ -3,7 +3,7 @@
   top: 545px;
   left: 0px;
   right: 0px;
-  padding-bottom: 250px;
+  padding-bottom: 300px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
@@ -82,12 +82,96 @@
 .suggestion.greenpeace {
   background-color: #73be1e;
 }
+.how-it-works {
+  display: block;
+  background-color: #3C763D;
+  padding: 5px;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: 50px;
+  width: inherit;
+  height: 380px;
+  box-shadow: 2px 0px 3px #888888;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+}
+.how-it-works h3 {
+  font-family: 'Karla', sans-serif;
+  margin-top: 50px;
+}
+.how-it-works .step {
+  width: 212px;
+  height: 220px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.how-it-works .step i {
+  display: block;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+.how-it-works .divider {
+  width: 40px;
+  display: inline-block;
+}
+.features {
+  display: block;
+  background-color: #fafafa;
+  padding: 5px;
+  margin-left: -40px;
+  margin-right: -40px;
+  width: inherit;
+  height: 550px;
+  box-shadow: 2px 0px 3px #888888;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+  color: #3C763D;
+}
+.features h3 {
+  margin-top: 33px;
+}
+.features .pair {
+  display: block;
+  margin-top: 15px;
+}
+.features .pair .item {
+  width: 390px;
+  display: inline-block;
+  height: 130px;
+  position: relative;
+}
+.features .pair .item .text {
+  position: absolute;
+  top: 51px;
+  left: 120px;
+  text-align: left;
+}
+.features .pair .item .text.three-lines {
+  top: 24px;
+}
+.features .pair .item .text.two-lines {
+  top: 39px;
+}
+.features .pair .item i {
+  font-size: 60px;
+  position: absolute;
+  top: 36px;
+  left: 40px;
+}
 .footer {
   position: absolute;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 200px;
+  height: 250px;
   background-color: #2B2D2E;
   color: white;
   padding-top: 17px;
