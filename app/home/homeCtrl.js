@@ -9,7 +9,7 @@ angular.module('gift.controllers')
     $scope.ngos = {data: [
        {
           name: 'UNICEF',
-          imageUrl: '../../assets/images/unicef-logo.jpg',
+          imageUrl: 'https://raw.githubusercontent.com/farolfo/gift/master/assets/images/unicef-logo.jpg',
           class: "unicef",
           raised: 4563,
           country: 'USA',
@@ -17,7 +17,7 @@ angular.module('gift.controllers')
        },
        {
           name: 'Water for Africa',
-          imageUrl: '../../assets/images/waterafrica.jpg',
+          imageUrl: 'https://raw.githubusercontent.com/farolfo/gift/master/assets/images/waterafrica.jpg',
           class: "water-for-africa",
           raised: 3032,
           country: 'USA',
@@ -25,7 +25,7 @@ angular.module('gift.controllers')
        },
        {
           name: 'Greenpeace',
-          imageUrl: '../../assets/images/greenpeace.png',
+          imageUrl: 'https://raw.githubusercontent.com/farolfo/gift/master/assets/images/greenpeace.png',
           class: "greenpeace",
           raised: 10231,
           country: 'Argentina',
@@ -33,7 +33,7 @@ angular.module('gift.controllers')
        },
        {
           name: 'Cruz Roja',
-          imageUrl: '../../assets/images/cr.png',
+          imageUrl: 'https://raw.githubusercontent.com/farolfo/gift/master/assets/images/cr.png',
           class: "cruz-roja",
           raised: 3121,
           country: 'USA',
